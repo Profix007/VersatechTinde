@@ -34,7 +34,27 @@
     
     <!--main nav start-->
     <?php include("header.html"); ?>
-    <div class="fullimage"><img src="header.jpg"></div>
+    <main>
+        <div class="fullimage"><img src="header.jpg"></div>
+            <div class="container">
+                <div class="row overflower fontfix">
+                    <div class="row">
+                        <div class="col-sm-12"><h2 class=""><a href="">Gudbrandsdalen hytteområder</a></h2></div>
+                    </div>
+                    <div class="col-sm-4"><h2 class=""><a href="">Gålå Fjelllandsby</a></h2></div>
+                    <div class="col-sm-4"><h2 class=""><a href="">Hafjell Tindegrenda</a></h2></div>
+                    <div class="col-sm-4"><h2><a href="#">Rondablikk, Kvamsfjellet</a></h2></div>
+                </div>
+  <div class="row">
+                <div class="col-sm-4 "><img src="gala.jpeg" alt="..." width="100%">
+                </div>
+               <div class="col-sm-4 "><img src="hafjell.jpeg" alt="..." width="100%">
+                </div>
+                <div class="col-sm-4 "><img src="rondablikk.jpeg" alt="..." width="100%">
+                </div>
+        </div>
+        </div>
+    </main>
       <?php include("footer.html"); ?>
 </body>
 
